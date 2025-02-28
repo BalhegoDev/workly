@@ -11,7 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primaryBlue: "#0084FF",
+        secondaryBlue: "#A9E8FF",
+        primaryBlack: "rgba(0,0,0,0.7)"
       },
+      fontFamily: {
+        
+      }
     },
   },
   plugins: [],
