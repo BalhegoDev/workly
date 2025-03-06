@@ -9,14 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        primaryBlue: "#0084FF",
-        secondaryBlue: "#A9E8FF",
-        primaryBlack: "rgba(0,0,0,0.7)"
+        primaryBlue: "#0056A8",
+        secondaryBlue: "#151A6C",
+        textBlue: "#34A1B9",
+        primaryBlack: "#1C1B1B"
       },
       fontFamily: {
-        
+        alumni: ["Alumni Sans"],
+        nunito: ["Nunito Sans"]
       }
     },
   },
