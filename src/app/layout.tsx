@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import MenuProvider from "@/contexts/openMenuContext";
 
+import Footer from "@/components/footer";
+
 
 export const metadata: Metadata = {
   title: "Workly",
@@ -17,6 +19,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         </head>
         <body>
           {children}
+          <Footer/>
         </body>
       </html>
     </MenuProvider>

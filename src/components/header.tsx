@@ -6,9 +6,7 @@ import { MenuContext } from "@/contexts/openMenuContext";
 
 export default function Header() {
   const menuRef = useRef<HTMLImageElement>(null);
-  const [isOpen, setIsOpen] = useState(false);
   const menuAction = useContext(MenuContext);
-
   
   useEffect(() => {
     const menuElement = menuRef.current;
