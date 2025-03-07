@@ -1,7 +1,3 @@
-"use client";
-
-import { useContext } from "react";
-import { MenuContext } from "@/contexts/openMenuContext";
 import Image from "next/image";
 
 //components
@@ -11,32 +7,30 @@ import CardCaption from "@/components/cardCaption";
 import CardSpace from "@/components/cardSpace";
 
 export default function Home(){
-
-  const isOpen = useContext(MenuContext)?.isOpen;
-
   return (
     <>
       <Header/>
-      <Menu isOpen={isOpen}>
-
+      <Menu>
       </Menu>
-      <article className="relative md:items-center flex flex-col bg-primaryBlue p-6">
-        <div 
+      <article className="relative md:h-screen md:justify-center md:items-center flex flex-col bg-primaryBlue p-6">
+        <div
           className="absolute inset-0 bg-[url('/index/people-talking.png')] bg-cover bg-center opacity-10"
         />
-        <p className="relative md:text-center md:w-56 w-36 text-white md:text-2xl z-10">
+        <p className="relative md:text-center md:w-96 w-36 text-white md:text-4xl z-10">
           Não se trata apenas de agendar reuniões,
           mas de escolher o espaço ideal para transformar cada encontro em um grande negócio.
         </p>
         <section className="z-10 md:w-80   md:flex md:justify-between ">
           <button className="flex text-white bg-secondaryBlue z-10 w-44 justify-evenly rounded-md border-none mt-4 cursor-pointer p-2">
-            Agende seu espaço
-            <Image
-              width={15}
-              height={15}
-              alt="ícone ilustrativo"
-              src="/index/moon.svg"
-            />
+            <a className="flex" href="/choose">
+              Agende seu espaço
+              <Image
+                width={15}
+                height={15}
+                alt="ícone ilustrativo"
+                src="/index/moon.svg"
+              />
+            </a>
           </button>
           <button className="z-10 border-2 border-white text-white w-28 justify-evenly rounded-md mt-4 cursor-pointer p-2">
             Saiba mais

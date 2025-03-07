@@ -6,8 +6,9 @@ import { useContext, useRef, useEffect } from "react";
 import MenuInterface from "@/interfaces/menu.interface";
 import { MenuContext } from "@/contexts/openMenuContext";
 
-export default function Menu({ children, isOpen, className }: MenuInterface) {
+export default function Menu({ children, className }: MenuInterface) {
   const setIsOpen = useContext(MenuContext)?.setIsOpen;
+  const isOpen = useContext(MenuContext)?.isOpen;
   const imageRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {

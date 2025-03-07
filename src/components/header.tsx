@@ -46,9 +46,9 @@ export default function Header() {
         className="md:hidden"
       />
       <section className="hidden md:flex md:justify-between text-white md:items-center md:w-64">
-        <a href="#">Seja anfitrião</a>
+        <a className="cursor-pointer" href="#">Seja anfitrião</a>
         <button style={{border:"thin solid white"}} className="p-2 cursor-pointer rounded-sm w-32">
-          <a href="#">Login</a>
+          <a className="cursor-pointer" href="#">Login</a>
         </button>
       </section>
     </header>

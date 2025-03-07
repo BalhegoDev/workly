@@ -4,4 +4,6 @@ export default interface CardSpaceInterface {
     link:string;
     title:string;
     className?:string
+    borderColor?:string
+    textColor?:string
 }
