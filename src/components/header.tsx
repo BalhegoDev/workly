@@ -43,7 +43,14 @@ export default function Header() {
         height={40}
         alt=""
         ref={menuRef}
+        className="md:hidden"
       />
+      <section className="hidden md:flex md:justify-between text-white md:items-center md:w-64">
+        <a href="#">Seja anfitrião</a>
+        <button style={{border:"thin solid white"}} className="p-2 cursor-pointer rounded-sm w-32">
+          <a href="#">Login</a>
+        </button>
+      </section>
     </header>
     </>
   );

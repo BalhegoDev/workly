@@ -4,7 +4,7 @@ import CardCaptionInterface from "@/interfaces/cardCaption.interface"
 
 export default function CardCaption({image,title,className}:CardCaptionInterface){
     return(
-        <section className={`flex flex-col items-center gap-2 ${className}`}>
+        <section className={`flex flex-col items-center justify-between ${className}`}>
             <Image
                 src={image}
                 width={80}

@@ -20,41 +20,43 @@ export default function Home(){
       <Menu isOpen={isOpen}>
 
       </Menu>
-      <article className="relative flex flex-col bg-primaryBlue p-6">
+      <article className="relative md:items-center flex flex-col bg-primaryBlue p-6">
         <div 
           className="absolute inset-0 bg-[url('/index/people-talking.png')] bg-cover bg-center opacity-10"
         />
-        <p className="relative w-36 text-white z-10">
+        <p className="relative md:text-center md:w-56 w-36 text-white md:text-2xl z-10">
           Não se trata apenas de agendar reuniões,
           mas de escolher o espaço ideal para transformar cada encontro em um grande negócio.
         </p>
-        <button className="flex text-white bg-secondaryBlue z-10 w-44 justify-evenly rounded-md border-none mt-4 cursor-pointer p-2">
-          Agende seu espaço
-          <Image
-            width={15}
-            height={15}
-            alt="ícone ilustrativo"
-            src="/index/moon.svg"
-          />
-        </button>
-        <button className="z-10 border-2 border-white text-white w-28 justify-evenly rounded-md mt-4 cursor-pointer p-2">
-          Saiba mais
-        </button>
+        <section className="z-10 md:w-80   md:flex md:justify-between ">
+          <button className="flex text-white bg-secondaryBlue z-10 w-44 justify-evenly rounded-md border-none mt-4 cursor-pointer p-2">
+            Agende seu espaço
+            <Image
+              width={15}
+              height={15}
+              alt="ícone ilustrativo"
+              src="/index/moon.svg"
+            />
+          </button>
+          <button className="z-10 border-2 border-white text-white w-28 justify-evenly rounded-md mt-4 cursor-pointer p-2">
+            Saiba mais
+          </button>
+        </section>
       </article>
       <article className="relative bg-primaryBlack p-8 flex flex-col items-center">
         <div 
           className="absolute inset-0 bg-[url('/index/stars.jpg')] bg-cover bg-center opacity-10"
         />
-        <p className="relative flex flex-col items-center text-left mb-5 z-10">
-          <span className="text-textBlue w-40">Nós temos o espaço ideal para você!</span>
-          <span className="w-40 text-white">
+        <p className="relative flex flex-col items-center text-left md:text-center mb-5 z-10">
+          <span className="text-textBlue w-40 md:w-auto md:text-2xl">Nós temos o espaço ideal para você!</span>
+          <span className="w-40 md:text-2xl md:w-80 text-white">
             Possuímos selos de confiança e qualidade, segurança e reembolso em até 1 hora antes do horário marcado.
           </span>
         </p>
-        <section className="z-10">
-          <CardCaption className="mt-4" image="/index/iconCalendar.svg" title="Agendamento"/>
-          <CardCaption className="mt-4" image="/index/iconsecurity.svg" title="Selo de confiança"/>
-          <CardCaption className="mt-4" image="/index/iconstar.svg" title="Qualidade"/>
+        <section className=" md:flex md:gap-36 gap-10 z-10">
+          <CardCaption className="h-36 mt-4" image="/index/iconCalendar.svg" title="Agendamento"/>
+          <CardCaption className="h-36 mt-4" image="/index/iconsecurity.svg" title="Selo de confiança"/>
+          <CardCaption className="h-36 mt-4" image="/index/iconstar.svg" title="Qualidade"/>
         </section>
       </article>
       <article className="bg-primaryBlue p-5 flex flex-col items-center text-white">
@@ -91,6 +93,7 @@ export default function Home(){
             image="/index/reuniao.svg" 
             link="#"
             title="Reuniões"
+            className="lg:h-24"
           />
           <CardSpace 
             label="Planejando um evento corporativo ou workshop? Oferecemos grandes espaços adaptáveis, ideais para receber seu público com conforto e estrutura profissional." 
