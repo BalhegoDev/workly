@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import CardCaptionInterface from "@/interfaces/cardCaption.interface"
+import CardCaptionInterface from "@/interfaces/CardCaption.interface"
 
 export default function CardCaption({image,title,className}:CardCaptionInterface){
     return(

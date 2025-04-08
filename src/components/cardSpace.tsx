@@ -1,4 +1,4 @@
-import CardSpaceInterface from "@/interfaces/cardSpace.interface"
+import CardSpaceInterface from "@/interfaces/CardSpace.interface"
 import Image from "next/image"
 
 export default function CardSpace({ image, label, link, title, className,borderColor = "primaryBlue", textColor = "primaryBlue"}: CardSpaceInterface) {

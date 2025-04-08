@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useContext, useRef, useEffect } from "react";
 
-import MenuInterface from "@/interfaces/menu.interface";
+import MenuInterface from "@/interfaces/Menu.interface";
 import { MenuContext } from "@/contexts/openMenuContext";
 
 export default function Menu({ children, className }: MenuInterface) {

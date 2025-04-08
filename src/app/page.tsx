@@ -79,20 +79,20 @@ export default function Home(){
           <CardSpace 
             label="Precisa de um lugar para trabalhar com foco e praticidade? Trabalhe com conforto e praticidade em estações individuais ou compartilhadas. Nosso espaço é ideal para quem busca um ambiente inspirador e bem estruturado para o dia a dia." 
             image="/index/idea.svg" 
-            link="#"
+            link="/salas?tipo_sala=coworking"
             title="Co-working"
           />
           <CardSpace 
             label="Reúna sua equipe em espaços modernos e equipados. Perfeito para brainstorms, apresentações e encontros importantes, com toda a comodidade para fazer sua reunião acontecer." 
             image="/index/reuniao.svg" 
-            link="#"
+            link="/salas?tipo_sala=reunioes"
             title="Reuniões"
             className="lg:h-24"
           />
           <CardSpace 
             label="Planejando um evento corporativo ou workshop? Oferecemos grandes espaços adaptáveis, ideais para receber seu público com conforto e estrutura profissional." 
             image="/index/meeting.svg"
-            link="#"
+            link="/salas?tipo_sala=BigSpaces"
             title="Grandes espaços"
           />
         </section>
