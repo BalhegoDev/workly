@@ -1,4 +1,4 @@
-import { RoomChoice } from "@/interfaces/RoomChoice.interface"
+import { RoomChoice } from "@/features/salas/interfaces/RoomChoice.interface"
 
 export default function RoomChoose( { bgColor, textColor, link, label }: RoomChoice ){
     return(
