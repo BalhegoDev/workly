@@ -13,36 +13,284 @@ export default function Salas(){
                  Nossos espaços
                 </h2>
             </section>
-            <main className="flex flex-col items-center mb-5">
-                <header className=" flex flex-col mb-5">
-                    <section className="flex justify-left ml-5 flex-wrap gap-2">
-                        <HandleRoomChoose/> 
+            <main 
+                className="flex flex-col mx-auto items-center mb-5"
+                style={{width:"98.8%"}}
+            >
+                <header className=" flex w-full mb-5">
+                    <section className="flex justify-between p-2 items-center w-full flex-wrap gap-1">
+                        <section className="flex gap-1 lg:gap-2 flex-wrap">
+                            <HandleRoomChoose/> 
+                        </section>
                         <RoomSearch/>
                     </section>
                 </header>
-                <RoomCard
-                    imageURL="/salas/teste/room-business.svg"
-                    title="Hub Space"
-                    description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
-                    capacity={22}
-                    rating={4}
-                    payementType={1}
-                    price={50}
-                    moneyType="R$"
-                    alugadoQntd={20}
-                    selos={
-                        {
-                            confianca:true,
-                            quadros:true,
-                            qualidade:true,
-                            projetores:true,
-                            tomadas:true,
-                            climatizado:true,
-                            iluminacao:true,
+                <section className="flex flex-wrap  justify-center lg:justify-between gap-4 px-4 w-full">
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
                         }
-                    }
-                    
-                />
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                    <RoomCard
+                        imageURL="/salas/teste/room-business.svg"
+                        title="Hub Space"
+                        description="Sala moderna, climatizada, com paredes de vidro, tomadas, quadro branco e projetor. Perfeita para reuniões e apresentações."
+                        capacity={22}
+                        rating={4}
+                        payementType={1}
+                        price={50}
+                        moneyType="R$"
+                        alugadoQntd={20}
+                        selos={
+                            {
+                                confianca:true,
+                                quadros:true,
+                                qualidade:true,
+                                projetores:true,
+                                tomadas:true,
+                                climatizado:true,
+                                iluminacao:true,
+                            }
+                        }
+                    />
+                </section>
             </main>
         </>
     )

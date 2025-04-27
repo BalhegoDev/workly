@@ -1,0 +1,29 @@
+/* 
+    Esse arquivo CSS foi criado com o ituito de que 
+    está ocorrendo alguns bugs que o navegador não reconhece a responsividade
+    do tailwind.
+*/
+
+@media only screen and (min-width:768px){
+    .filter{
+        flex-direction: row!important;
+        justify-content: end;
+    }
+}
+
+@media only screen and (min-width:1024px){
+
+    .filter{
+        flex: 1;
+    }
+
+    .filter input{
+        width: 28rem;
+    }
+}
+
+@media only screen and (min-width:1280px){
+    .filter input{
+        margin-right: 5rem;
+    }
+}

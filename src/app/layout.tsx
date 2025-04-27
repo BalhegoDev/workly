@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./style.css";
 import MenuProvider from "@/contexts/openMenuContext";
 import { ToastContainer } from 'react-toastify';
 import Footer from "@/components/footer";

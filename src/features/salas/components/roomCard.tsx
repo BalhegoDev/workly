@@ -8,7 +8,7 @@ import { Images } from "../constants/images";
 export default function RoomCard({imageURL,description,title,rating,capacity,moneyType,price,payementType,selos,alugadoQntd}: Interface){
     return(
         <article
-            style={{borderRadius:"8px", boxShadow: "0px 7px 19px -3px #0000000D"}} 
+            style={{borderRadius:"8px", boxShadow: "0px 3px 13px 3px rgba(0,0,0,0.61)"}} 
             className="rounded-xl flex flex-col items-center w-full max-w-[96%] md:w-96"
         >
             <Image
